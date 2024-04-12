@@ -22,9 +22,9 @@ This Python project implements a chatbot that operates on YouTube video links. T
 
 ## Installation
 1) Clone this repository: git clone https://github.com/Abhishek271099/SpeedyTubeQA.git
-2) Navigate to the project directory: cd yourproject
+2) Navigate to the project directory: cd SpeedyTubeQA
 3) Install dependencies: pip install -r requirements.txt
 4) create .env file and add these environment variables to it
-    a- GENAI_API_KEY = "YOUR-GEMINI-APIKEY"
-    b- EMB_MODEL_NAME = "models/embedding-001"
+    a- GENAI_API_KEY = "YOUR-GEMINI-APIKEY"  <br />
+    b- EMB_MODEL_NAME = "models/embedding-001"   <br />
     c- RESPONSE_MODEL_NAME = "gemini-pro"
