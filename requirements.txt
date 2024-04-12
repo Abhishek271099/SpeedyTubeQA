@@ -1,0 +1,6 @@
+pytube
+fastapi
+pydantic
+google-generativeai
+whisper
+uvicorn

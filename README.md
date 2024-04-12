@@ -27,4 +27,7 @@ This Python project implements a chatbot that operates on YouTube video links. T
 4) create .env file and add these environment variables to it  <br />
     a- GENAI_API_KEY = "YOUR-GEMINI-APIKEY"  <br />
     b- EMB_MODEL_NAME = "models/embedding-001"   <br />
-    c- RESPONSE_MODEL_NAME = "gemini-pro"
+    c- RESPONSE_MODEL_NAME = "gemini-pro"  <br />
+5) Run the command in termial  <br />
+    uvicorn main:app --reload   ---> dev environment
+    uvicorn main:app            ---> prod environment
