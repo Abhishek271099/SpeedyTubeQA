@@ -29,5 +29,5 @@ This Python project implements a chatbot that operates on YouTube video links. T
     b- EMB_MODEL_NAME = "models/embedding-001"   <br />
     c- RESPONSE_MODEL_NAME = "gemini-pro"  <br />
 5) Run the command in termial  <br />
-    uvicorn main:app --reload   ---> dev environment
+    uvicorn main:app --reload   ---> dev environment  <br />
     uvicorn main:app            ---> prod environment
